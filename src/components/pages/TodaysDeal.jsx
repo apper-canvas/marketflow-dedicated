@@ -1,13 +1,16 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ApperIcon from '@/components/ApperIcon';
+import Button from '@/components/atoms/Button';
 import { toast } from 'react-toastify';
 import todaysDealsService from '@/services/api/todaysDealsService';
+import cartService from '@/services/api/cartService';
 
 const TodaysDeal = () => {
   const [deals, setDeals] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [addingToCart, setAddingToCart] = useState({});
 
   useEffect(() => {
     loadDeals();
@@ -23,6 +26,28 @@ const TodaysDeal = () => {
       toast.error('Failed to load deals');
     } finally {
       setLoading(false);
+    }
+};
+
+  const handleShopNow = async (deal) => {
+    try {
+      setAddingToCart(prev => ({ ...prev, [deal.Id]: true }));
+      
+      const cartItem = {
+        productId: deal.Id,
+        name: deal.title,
+        price: deal.salePrice,
+        originalPrice: deal.originalPrice,
+        image: deal.image,
+        quantity: 1
+      };
+
+      await cartService.create(cartItem);
+      toast.success(`${deal.title} added to cart!`);
+    } catch (error) {
+      toast.error('Failed to add item to cart. Please try again.');
+    } finally {
+      setAddingToCart(prev => ({ ...prev, [deal.Id]: false }));
     }
   };
 
@@ -85,9 +110,16 @@ const TodaysDeal = () => {
                   Ends in {deal.timeLeft}
                 </span>
               </div>
-              <button className="w-full bg-primary text-white py-2 rounded hover:bg-primary-600 transition-colors">
-                Shop Now
-              </button>
+<Button
+                variant="primary"
+                size="md"
+                fullWidth
+                onClick={() => handleShopNow(deal)}
+                disabled={addingToCart[deal.Id]}
+                loading={addingToCart[deal.Id]}
+              >
+                {addingToCart[deal.Id] ? 'Adding...' : 'Shop Now'}
+              </Button>
             </div>
           </motion.div>
         ))}
