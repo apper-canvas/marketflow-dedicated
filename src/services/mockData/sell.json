@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 1,
+    "title": "iPhone 13 Pro Max - Excellent Condition",
+    "description": "Barely used iPhone 13 Pro Max 256GB in pristine condition. Includes original box and charger.",
+    "price": 899.99,
+    "category": "electronics",
+    "condition": "like-new",
+    "status": "active",
+    "image": "/api/placeholder/300/200",
+    "createdAt": "2024-01-10",
+    "views": 45
+  },
+  {
+    "Id": 2,
+    "title": "Vintage Leather Jacket",
+    "description": "Authentic vintage leather jacket from the 80s. Size Medium. Great for collectors.",
+    "price": 150.00,
+    "category": "clothing",
+    "condition": "good",
+    "status": "active",
+    "image": "/api/placeholder/300/200",
+    "createdAt": "2024-01-08",
+    "views": 23
+  },
+  {
+    "Id": 3,
+    "title": "Gaming Chair - Ergonomic Design",
+    "description": "Professional gaming chair with lumbar support and adjustable height. Used for 6 months.",
+    "price": 200.00,
+    "category": "home",
+    "condition": "good",
+    "status": "sold",
+    "image": "/api/placeholder/300/200",
+    "createdAt": "2024-01-05",
+    "views": 67
+  }
+]

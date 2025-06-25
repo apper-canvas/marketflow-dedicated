@@ -31,12 +31,20 @@ const Header = () => {
 
     window.addEventListener('cartUpdated', handleCartUpdate);
     return () => window.removeEventListener('cartUpdated', handleCartUpdate);
-  }, []);
+}, []);
 
-const accountMenuItems = [
+  const navigationLinks = [
+    { label: "Today's Deal", path: '/todays-deal' },
+    { label: 'Customer Service', path: '/customer-service' },
+    { label: 'Registry', path: '/registry' },
+    { label: 'Gift Cards', path: '/gift-cards' },
+    { label: 'Sell', path: '/sell' }
+  ];
+
+  const accountMenuItems = [
     { label: 'Your Orders', path: '/orders', icon: 'Package2' },
     { label: 'Account Settings', path: '/', icon: 'Settings' },
-    { label: 'Customer Service', path: '/', icon: 'HelpCircle' },
+    { label: 'Customer Service', path: '/customer-service', icon: 'HelpCircle' },
   ];
 
   return (
@@ -107,6 +115,21 @@ const accountMenuItems = [
               <span className="hidden sm:block text-sm">Cart</span>
             </Link>
           </div>
+        </div>
+
+        {/* Navigation Bar */}
+        <div className="border-t border-surface-700">
+          <nav className="flex items-center justify-center space-x-8 py-2">
+            {navigationLinks.map((link) => (
+              <Link
+                key={link.path}
+                to={link.path}
+                className="text-sm text-surface-300 hover:text-white transition-colors py-1"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
         </div>
 
         {/* Mobile Search */}

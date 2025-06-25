@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "name": "Sarah & Mike's Wedding",
+    "type": "wedding",
+    "eventDate": "2024-06-15",
+    "description": "Join us in celebrating our special day! Here are some items that would help us start our new life together.",
+    "itemCount": 25,
+    "status": "active",
+    "createdAt": "2024-01-10"
+  },
+  {
+    "Id": 2,
+    "name": "Baby Johnson Shower",
+    "type": "baby",
+    "eventDate": "2024-03-20",
+    "description": "We're excited to welcome our little one! These items will help us prepare for our new baby.",
+    "itemCount": 18,
+    "status": "active",
+    "createdAt": "2024-01-08"
+  },
+  {
+    "Id": 3,
+    "name": "Emma's 5th Birthday",
+    "type": "birthday",
+    "eventDate": "2024-02-14",
+    "description": "Help make Emma's birthday extra special with these gift ideas!",
+    "itemCount": 12,
+    "status": "active",
+    "createdAt": "2024-01-05"
+  }
+]

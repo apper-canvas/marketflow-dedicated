@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "subject": "Order not received",
+    "category": "shipping",
+    "priority": "high",
+    "description": "I placed an order 10 days ago but haven't received it yet. Order #12345",
+    "status": "open",
+    "createdAt": "2024-01-15",
+    "updatedAt": "2024-01-15"
+  },
+  {
+    "Id": 2,
+    "subject": "Refund request for damaged item",
+    "category": "refund",
+    "priority": "medium",
+    "description": "The laptop I received has a cracked screen. I would like a full refund.",
+    "status": "pending",
+    "createdAt": "2024-01-14",
+    "updatedAt": "2024-01-14"
+  },
+  {
+    "Id": 3,
+    "subject": "Account login issues",
+    "category": "technical",
+    "priority": "low",
+    "description": "I'm unable to login to my account. Password reset is not working.",
+    "status": "closed",
+    "createdAt": "2024-01-12",
+    "updatedAt": "2024-01-13"
+  }
+]

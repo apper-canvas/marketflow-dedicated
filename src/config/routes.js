@@ -4,6 +4,11 @@ import ProductDetail from '@/components/pages/ProductDetail';
 import Cart from '@/components/pages/Cart';
 import Checkout from '@/components/pages/Checkout';
 import OrderHistory from '@/components/pages/OrderHistory';
+import TodaysDeal from '@/components/pages/TodaysDeal';
+import CustomerService from '@/components/pages/CustomerService';
+import Registry from '@/components/pages/Registry';
+import GiftCards from '@/components/pages/GiftCards';
+import Sell from '@/components/pages/Sell';
 
 export const routes = {
   home: {
@@ -12,6 +17,41 @@ export const routes = {
     path: '/',
     icon: 'Home',
     component: Home
+  },
+  todaysDeal: {
+    id: 'todaysDeal',
+    label: "Today's Deal",
+    path: '/todays-deal',
+    icon: 'Zap',
+    component: TodaysDeal
+  },
+  customerService: {
+    id: 'customerService',
+    label: 'Customer Service',
+    path: '/customer-service',
+    icon: 'HelpCircle',
+    component: CustomerService
+  },
+  registry: {
+    id: 'registry',
+    label: 'Registry',
+    path: '/registry',
+    icon: 'Gift',
+    component: Registry
+  },
+  giftCards: {
+    id: 'giftCards',
+    label: 'Gift Cards',
+    path: '/gift-cards',
+    icon: 'CreditCard',
+    component: GiftCards
+  },
+  sell: {
+    id: 'sell',
+    label: 'Sell',
+    path: '/sell',
+    icon: 'Store',
+    component: Sell
   },
   search: {
     id: 'search',

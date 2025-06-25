@@ -1,0 +1,39 @@
+[
+  {
+    "Id": 1,
+    "code": "MC4X8N9P2QRS",
+    "balance": 50.00,
+    "originalAmount": 50.00,
+    "status": "active",
+    "purchaseDate": "2024-01-10",
+    "recipientName": "John Doe",
+    "recipientEmail": "john@example.com",
+    "design": "classic",
+    "message": "Happy Birthday!"
+  },
+  {
+    "Id": 2,
+    "code": "GH7Y3K1M9VWX",
+    "balance": 0.00,
+    "originalAmount": 100.00,
+    "status": "redeemed",
+    "purchaseDate": "2024-01-05",
+    "redeemedAt": "2024-01-12",
+    "recipientName": "Jane Smith",
+    "recipientEmail": "jane@example.com",
+    "design": "festive",
+    "message": "Merry Christmas!"
+  },
+  {
+    "Id": 3,
+    "code": "AB5C9E2F4HIJ",
+    "balance": 25.50,
+    "originalAmount": 75.00,
+    "status": "active",
+    "purchaseDate": "2024-01-08",
+    "recipientName": "Bob Wilson",
+    "recipientEmail": "bob@example.com",
+    "design": "elegant",
+    "message": "Thank you for everything!"
+  }
+]
