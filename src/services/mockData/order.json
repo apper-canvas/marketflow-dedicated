@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "items": [
+      {
+        "productId": 2,
+        "quantity": 1,
+        "price": 999.99,
+        "title": "Samsung 55\" QLED 4K Smart TV - QN55Q80C"
+      },
+      {
+        "productId": 8,
+        "quantity": 2,
+        "price": 14.99,
+        "title": "The Alchemist by Paulo Coelho - Paperback"
+      }
+    ],
+    "subtotal": 1029.97,
+    "tax": 82.40,
+    "shipping": 0.00,
+    "total": 1112.37,
+    "status": "Delivered",
+    "orderDate": "2024-12-15T14:30:00Z",
+    "deliveryDate": "2024-12-18T16:45:00Z",
+    "trackingNumber": "1Z999AA1234567890",
+    "shippingAddress": {
+      "name": "John Smith",
+      "street": "123 Main Street",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    }
+  },
+  {
+    "Id": 2,
+    "items": [
+      {
+        "productId": 5,
+        "quantity": 1,
+        "price": 99.95,
+        "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, 8 Quart"
+      }
+    ],
+    "subtotal": 99.95,
+    "tax": 8.00,
+    "shipping": 0.00,
+    "total": 107.95,
+    "status": "In Transit",
+    "orderDate": "2024-12-20T09:15:00Z",
+    "deliveryDate": "2024-12-27T12:00:00Z",
+    "trackingNumber": "1Z999AA1234567891",
+    "shippingAddress": {
+      "name": "John Smith",
+      "street": "123 Main Street",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    }
+  },
+  {
+    "Id": 3,
+    "items": [
+      {
+        "productId": 7,
+        "quantity": 1,
+        "price": 349.99,
+        "title": "Nintendo Switch OLED Model Console - White"
+      }
+    ],
+    "subtotal": 349.99,
+    "tax": 28.00,
+    "shipping": 0.00,
+    "total": 377.99,
+    "status": "Processing",
+    "orderDate": "2024-12-23T16:20:00Z",
+    "deliveryDate": "2024-12-28T14:00:00Z",
+    "trackingNumber": null,
+    "shippingAddress": {
+      "name": "John Smith",
+      "street": "123 Main Street",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    }
+  }
+]

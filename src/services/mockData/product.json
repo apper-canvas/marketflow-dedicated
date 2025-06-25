@@ -1,0 +1,227 @@
+[
+  {
+    "Id": 1,
+    "title": "Apple iPhone 15 Pro Max, 256GB, Natural Titanium",
+    "price": 1199.99,
+    "originalPrice": 1299.99,
+    "images": [
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500",
+      "https://images.unsplash.com/photo-1567581935884-3349723552ca?w=500",
+      "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=500"
+    ],
+    "description": "The most advanced iPhone yet with titanium design, A17 Pro chip, and Pro camera system. Features Action Button, USB-C, and all-day battery life.",
+    "category": "Electronics",
+    "subcategory": "Smartphones",
+    "rating": 4.6,
+    "reviewCount": 15247,
+    "isPrime": true,
+    "inStock": true,
+    "stockCount": 25,
+    "features": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Pro chip with 6-core GPU",
+      "Pro camera system with 48MP Main",
+      "Action Button for quick shortcuts",
+      "USB-C connector"
+    ],
+    "brand": "Apple",
+    "model": "iPhone 15 Pro Max",
+    "deliveryDate": "2024-12-28"
+  },
+  {
+    "Id": 2,
+    "title": "Samsung 55\" QLED 4K Smart TV - QN55Q80C",
+    "price": 999.99,
+    "originalPrice": 1199.99,
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500",
+      "https://images.unsplash.com/photo-1571563750956-d8020c45be11?w=500"
+    ],
+    "description": "Premium QLED TV with Quantum HDR, Direct Full Array, and Alexa Built-in. Experience brilliant colors and deep contrast with Quantum Dot technology.",
+    "category": "Electronics",
+    "subcategory": "TVs",
+    "rating": 4.4,
+    "reviewCount": 8432,
+    "isPrime": true,
+    "inStock": true,
+    "stockCount": 12,
+    "features": [
+      "55-inch QLED display",
+      "4K Ultra HD resolution",
+      "Quantum HDR technology",
+      "Smart TV with Alexa Built-in",
+      "Gaming Hub for console gaming"
+    ],
+    "brand": "Samsung",
+    "model": "QN55Q80C",
+    "deliveryDate": "2024-12-27"
+  },
+  {
+    "Id": 3,
+    "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+    "price": 349.99,
+    "originalPrice": 399.99,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500"
+    ],
+    "description": "Industry-leading noise canceling with dual noise sensor technology. Up to 30-hour battery life with quick charge capability.",
+    "category": "Electronics",
+    "subcategory": "Headphones",
+    "rating": 4.7,
+    "reviewCount": 12683,
+    "isPrime": true,
+    "inStock": true,
+    "stockCount": 45,
+    "features": [
+      "Industry-leading noise canceling",
+      "30-hour battery life",
+      "Quick charge: 3 min = 3 hours playback",
+      "Crystal clear hands-free calling",
+      "Touch sensor controls"
+    ],
+    "brand": "Sony",
+    "model": "WH-1000XM5",
+    "deliveryDate": "2024-12-26"
+  },
+  {
+    "Id": 4,
+    "title": "YETI Rambler 20 oz Tumbler with MagSlider Lid",
+    "price": 34.95,
+    "originalPrice": 39.95,
+    "images": [
+      "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=500",
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500"
+    ],
+    "description": "Double-wall vacuum insulated tumbler keeps drinks cold or hot. Dishwasher safe with no sweat design and MagSlider crystal-clear lid.",
+    "category": "Home & Kitchen",
+    "subcategory": "Drinkware",
+    "rating": 4.8,
+    "reviewCount": 23451,
+    "isPrime": true,
+    "inStock": true,
+    "stockCount": 156,
+    "features": [
+      "Double-wall vacuum insulation",
+      "18/8 stainless steel construction",
+      "MagSlider crystal-clear lid",
+      "Dishwasher safe",
+      "No sweat design"
+    ],
+    "brand": "YETI",
+    "model": "Rambler 20oz",
+    "deliveryDate": "2024-12-26"
+  },
+  {
+    "Id": 5,
+    "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, 8 Quart",
+    "price": 99.95,
+    "originalPrice": 129.95,
+    "images": [
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500",
+      "https://images.unsplash.com/photo-1585515656245-1bf6660cf457?w=500"
+    ],
+    "description": "America's #1 multi-cooker combines 7 kitchen appliances in 1. Pressure cook, slow cook, rice cooker, steamer, sauté, yogurt maker & warmer.",
+    "category": "Home & Kitchen",
+    "subcategory": "Small Appliances",
+    "rating": 4.5,
+    "reviewCount": 89234,
+    "isPrime": true,
+    "inStock": true,
+    "stockCount": 67,
+    "features": [
+      "7-in-1 functionality",
+      "8-quart capacity",
+      "13 one-touch smart programs",
+      "10+ safety features",
+      "Stainless steel cooking pot"
+    ],
+    "brand": "Instant Pot",
+    "model": "Duo 8Qt",
+    "deliveryDate": "2024-12-27"
+  },
+  {
+    "Id": 6,
+    "title": "Allbirds Tree Runners - Sustainable Running Shoes",
+    "price": 98.00,
+    "originalPrice": 115.00,
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500"
+    ],
+    "description": "The world's most comfortable running shoes made from sustainable eucalyptus tree fiber. Machine washable and carbon neutral shipping.",
+    "category": "Fashion",
+    "subcategory": "Shoes",
+    "rating": 4.3,
+    "reviewCount": 5647,
+    "isPrime": false,
+    "inStock": true,
+    "stockCount": 23,
+    "features": [
+      "Made from eucalyptus tree fiber",
+      "Machine washable",
+      "Carbon neutral shipping",
+      "Moisture-wicking properties",
+      "Odor-resistant materials"
+    ],
+    "brand": "Allbirds",
+    "model": "Tree Runners",
+    "deliveryDate": "2024-12-30"
+  },
+  {
+    "Id": 7,
+    "title": "Nintendo Switch OLED Model Console - White",
+    "price": 349.99,
+    "originalPrice": 349.99,
+    "images": [
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=500",
+      "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=500"
+    ],
+    "description": "7-inch OLED screen with vivid colors and crisp contrast. Enhanced audio, wide adjustable stand, and 64 GB internal storage.",
+    "category": "Video Games",
+    "subcategory": "Consoles",
+    "rating": 4.6,
+    "reviewCount": 12890,
+    "isPrime": true,
+    "inStock": true,
+    "stockCount": 34,
+    "features": [
+      "7-inch OLED screen",
+      "Enhanced audio",
+      "Wide adjustable stand",
+      "64 GB internal storage",
+      "Play anywhere, anytime"
+    ],
+    "brand": "Nintendo",
+    "model": "Switch OLED",
+    "deliveryDate": "2024-12-28"
+  },
+  {
+    "Id": 8,
+    "title": "The Alchemist by Paulo Coelho - Paperback",
+    "price": 14.99,
+    "originalPrice": 16.99,
+    "images": [
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500",
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500"
+    ],
+    "description": "A magical fable about learning to listen to your heart, read the omens strewn along life's path, and above all, follow your dreams.",
+    "category": "Books",
+    "subcategory": "Fiction",
+    "rating": 4.2,
+    "reviewCount": 45123,
+    "isPrime": true,
+    "inStock": true,
+    "stockCount": 234,
+    "features": [
+      "International bestseller",
+      "Translated into 80+ languages",
+      "Paperback edition",
+      "336 pages",
+      "Inspirational fiction"
+    ],
+    "brand": "HarperOne",
+    "model": "Paperback",
+    "deliveryDate": "2024-12-26"
+  }
+]

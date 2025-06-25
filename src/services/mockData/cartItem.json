@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "productId": 1,
+    "quantity": 1,
+    "savedForLater": false,
+    "addedDate": "2024-12-25T10:30:00Z"
+  },
+  {
+    "Id": 2,
+    "productId": 3,
+    "quantity": 2,
+    "savedForLater": false,
+    "addedDate": "2024-12-25T11:15:00Z"
+  },
+  {
+    "Id": 3,
+    "productId": 4,
+    "quantity": 1,
+    "savedForLater": true,
+    "addedDate": "2024-12-24T15:20:00Z"
+  }
+]

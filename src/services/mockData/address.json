@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "name": "John Smith",
+    "street": "123 Main Street",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98101",
+    "isDefault": true,
+    "type": "Home"
+  },
+  {
+    "Id": 2,
+    "name": "John Smith",
+    "street": "456 Business Ave, Suite 200",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98102",
+    "isDefault": false,
+    "type": "Work"
+  }
+]
