@@ -1,0 +1,36 @@
+[
+  {
+    "Id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "phone": "555-0123",
+    "dateOfBirth": "1990-05-15",
+    "address": {
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zipCode": "12345",
+      "country": "United States"
+    },
+    "preferences": {
+      "language": "en",
+      "currency": "USD",
+      "timezone": "America/Los_Angeles",
+      "emailNotifications": true,
+      "smsNotifications": false,
+      "marketingEmails": true,
+      "orderUpdates": true,
+      "dealAlerts": false,
+      "newsletterSubscription": true
+    },
+    "security": {
+      "twoFactorEnabled": false,
+      "lastPasswordChange": "2024-01-15T10:30:00Z",
+      "loginNotifications": true
+    },
+    "accountStatus": "active",
+    "memberSince": "2023-01-15T08:00:00Z",
+    "lastLogin": "2024-01-20T14:30:00Z"
+  }
+]

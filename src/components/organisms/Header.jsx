@@ -41,9 +41,9 @@ const Header = () => {
     { label: 'Sell', path: '/sell' }
   ];
 
-  const accountMenuItems = [
+const accountMenuItems = [
     { label: 'Your Orders', path: '/orders', icon: 'Package2' },
-    { label: 'Account Settings', path: '/', icon: 'Settings' },
+    { label: 'Account Settings', path: '/account-settings', icon: 'Settings' },
     { label: 'Customer Service', path: '/customer-service', icon: 'HelpCircle' },
   ];
 

@@ -9,6 +9,7 @@ import CustomerService from '@/components/pages/CustomerService';
 import Registry from '@/components/pages/Registry';
 import GiftCards from '@/components/pages/GiftCards';
 import Sell from '@/components/pages/Sell';
+import AccountSettings from '@/components/pages/AccountSettings';
 
 export const routes = {
   home: {
@@ -85,8 +86,15 @@ export const routes = {
     id: 'orders',
     label: 'Orders',
     path: '/orders',
-    icon: 'Package2',
+icon: 'Package2',
     component: OrderHistory
+  },
+  accountSettings: {
+    id: 'accountSettings',
+    label: 'Account Settings',
+    path: '/account-settings',
+    icon: 'Settings',
+    component: AccountSettings
   }
 };
 
