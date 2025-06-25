@@ -2,13 +2,15 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { toast } from "react-toastify";
-import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
-import Badge from "@/components/atoms/Badge";
-import StarRating from "@/components/atoms/StarRating";
-import ProductCard from "@/components/molecules/ProductCard";
 import productService from "@/services/api/productService";
 import cartService from "@/services/api/cartService";
+import ApperIcon from "@/components/ApperIcon";
+import Cart from "@/components/pages/Cart";
+import Home from "@/components/pages/Home";
+import ProductCard from "@/components/molecules/ProductCard";
+import Badge from "@/components/atoms/Badge";
+import Button from "@/components/atoms/Button";
+import StarRating from "@/components/atoms/StarRating";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -52,15 +54,16 @@ const handleAddToCart = async () => {
       setAddingToCart(true);
       await cartService.addItem(product.Id, quantity);
       toast.success(`${product.title} added to cart`);
-      
-      // Trigger cart update event
-      if (typeof CustomEvent !== 'undefined') {
-        window.dispatchEvent(new CustomEvent('cartUpdated'));
-      } else {
-        // Fallback for older browsers
-        const event = document.createEvent('Event');
-        event.initEvent('cartUpdated', true, true);
-        window.dispatchEvent(event);
+// Trigger cart update event
+      if (typeof window !== 'undefined') {
+        if (typeof window.CustomEvent !== 'undefined') {
+          window.dispatchEvent(new window.CustomEvent('cartUpdated'));
+        } else {
+          // Fallback for older browsers
+          const event = document.createEvent('Event');
+          event.initEvent('cartUpdated', true, true);
+          window.dispatchEvent(event);
+        }
       }
     } catch (error) {
       toast.error('Failed to add item to cart');
@@ -167,7 +170,6 @@ if (!product) {
 {/* Thumbnail Images */}
             {product?.images?.length > 1 && (
               <div className="flex gap-2 overflow-x-auto scrollbar-hide">
-<div className="flex gap-2 overflow-x-auto scrollbar-hide">
                 {product?.images?.map((image, index) => (
                   <button
                     key={index}
