@@ -1,7 +1,6 @@
 import { Outlet, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Header from '@/components/organisms/Header';
-import CategoryNav from '@/components/organisms/CategoryNav';
 
 const Layout = () => {
   const location = useLocation();
@@ -9,7 +8,6 @@ const Layout = () => {
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-surface-100">
       <Header />
-      <CategoryNav />
       
       <main className="flex-1 overflow-y-auto">
         <motion.div
