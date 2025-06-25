@@ -21,12 +21,12 @@ const CategoryNav = () => {
     }
   ];
 
-  const quickLinks = [
-    { label: 'Today\'s Deals', path: '/deals', icon: 'Percent' },
-    { label: 'Customer Service', path: '/help', icon: 'HelpCircle' },
-    { label: 'Registry', path: '/registry', icon: 'Gift' },
-    { label: 'Gift Cards', path: '/gift-cards', icon: 'CreditCard' },
-    { label: 'Sell', path: '/sell', icon: 'Store' }
+const quickLinks = [
+    { label: 'Today\'s Deals', path: '/', icon: 'Percent' },
+    { label: 'Customer Service', path: '/', icon: 'HelpCircle' },
+    { label: 'Registry', path: '/', icon: 'Gift' },
+    { label: 'Gift Cards', path: '/', icon: 'CreditCard' },
+    { label: 'Sell', path: '/', icon: 'Store' }
   ];
 
   return (

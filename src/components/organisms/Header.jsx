@@ -33,10 +33,10 @@ const Header = () => {
     return () => window.removeEventListener('cartUpdated', handleCartUpdate);
   }, []);
 
-  const accountMenuItems = [
+const accountMenuItems = [
     { label: 'Your Orders', path: '/orders', icon: 'Package2' },
-    { label: 'Account Settings', path: '/account', icon: 'Settings' },
-    { label: 'Customer Service', path: '/help', icon: 'HelpCircle' },
+    { label: 'Account Settings', path: '/', icon: 'Settings' },
+    { label: 'Customer Service', path: '/', icon: 'HelpCircle' },
   ];
 
   return (
