@@ -29,22 +29,19 @@ const TodaysDeal = () => {
     }
 };
 
-  const handleShopNow = async (deal) => {
+const handleShopNow = async (deal) => {
     try {
+      // Validate deal object
+      if (!deal || !deal.Id) {
+        throw new Error('Invalid deal data');
+      }
+      
       setAddingToCart(prev => ({ ...prev, [deal.Id]: true }));
       
-      const cartItem = {
-        productId: deal.Id,
-        name: deal.title,
-        price: deal.salePrice,
-        originalPrice: deal.originalPrice,
-        image: deal.image,
-        quantity: 1
-      };
-
-      await cartService.create(cartItem);
-      toast.success(`${deal.title} added to cart!`);
+      await cartService.addItem(deal.Id, 1);
+      toast.success(`${deal.title || 'Item'} added to cart!`);
     } catch (error) {
+      console.error('Cart error:', error);
       toast.error('Failed to add item to cart. Please try again.');
     } finally {
       setAddingToCart(prev => ({ ...prev, [deal.Id]: false }));
